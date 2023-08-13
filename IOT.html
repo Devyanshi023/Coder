@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cyber Info</title>
+  <link rel="stylesheet" href="style1.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    a:link {
+      color: rgb(60, 90, 239);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(6, 150, 216);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(87, 67, 201);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: rgb(59, 156, 241);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=text]:focus {
+      border: 3px solid #555;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=email]:focus {
+      border: 3px solid #555;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    textarea:focus {
+      border: 3px solid #555;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#main"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="nl">
+        <div class="logo"><img src="Images/logoNew.jpg" alt="logo" height="70px" width="70px">
+          <a href="#">CYBER INFO</a>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#main">Cyber Threat</a></li>
+        <li><a href="#stats">Statistics</a></li>
+        <li><a href="#protect">Protection</a></li>
+        <li><a href="#services">Articles</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- main Section Start -->
+  <section class="main" id="main">
+    <div class="main-content">
+      <div class="text">
+        <div class="text-one">IoT based cyber attacks</div><br>
+
+        <div class="text-three">
+          <p>IoT (Internet of Things) based cyber attacks are those attacks that occur when devices with internet
+            connectivity are hacked
+            or exploited by attackers to access sensitive information or cause harm.</p><br>
+          <p>It is a threat to systems that make use of such devices, including smart homes, hospitals, automobiles,
+            and other related systems.</p><br>
+          <p>They can impact privacy, safety, and data security.</p><br>
+          <p>These pose a serious threat to organizations and individuals worldwide and can cause significant financial
+            and reputational damage.</p><br>
+          <p>As organizations in virtually every industry increase their operational reliance on IoT devices,
+            security teams must account for both simple and complex risk factors specific to the world of IoT</p><br>
+          <br>
+          <label for="touch">
+            <center>
+              <div class="spans">TYPES OF IoT BASED CYBER ATTACKS</div>
+            </center>
+          </label>
+          <input type="checkbox" id="touch">
+
+          <ul class="slide">
+
+            <li>Botnets</li>
+            <li>Convergence</li>
+            <li>Eavesdropping</li>
+            <li>Remote code execution</li>
+            <li>Brute-force attacks</li>
+            <li>Backdoor access</li>
+            <li>Physical access</li>
+            <li>SQL Injection</li>
+            <li>Buffer Overflow</li>
+
+          </ul>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section Start -->
+
+  <section class="stats" id="stats">
+    <div class="content">
+      <div class="title"><span>Wanna Know About The Current Stats of These Attacks? </span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <p>The first two months of 2023 have seen a 41% increase in the average number of weekly attacks per
+            organization targeting IoT devices, compared to 2022.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <p>On average, every week 54% of organizations suffer from attempted cyber attacks targeting IoT devices</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <p>IoT devices in European organizations are the most targeted, followed by those in APAC and Latin
+            America-based organizations.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- protect Section Start -->
+  <section class="protect" id="protect">
+    <div class="content">
+      <div class="title"><span>Let's talk about Protection!</span></div>
+      <div class="protect-details">
+        <div class="left">
+          <center><img src="Images/iot.png" alt="image"><br></center>
+          <p style="font-size: 15px;">
+            <center>WORKING OF IoT BASED ATTACKS</center>
+          </p><br><br>
+        </div>
+        <div class="right">
+          <div class="topic">Easy-peasy Protection is in your Hands!! </div><br>
+          <p>Here are 10 simple tips for identifying and preventing these scams.</p><br><br>
+
+          <div class="topic">1.Develop a cybersecurity plan </div>
+          <p>The first step in protecting your devices from IoT-based cyber attacks is to create a cybersecurity plan.
+            The plan should include all devices and systems, as well as the type of data they process or store. </p><br>
+
+          <div class="topic">2. Regularly update software and firmware</div>
+          <p> Once a cybersecurity plan is in place, you should implement policies to update software and firmware
+            regularly.
+            This will help ensure that all devices and systems are up to date with the latest security patches.</p><br>
+
+          <div class="topic">3. Implement strong passwords </div>
+          <p>One of the most commonly exploited vulnerabilities in IoT systems is weak passwords.
+            To protect your devices, implement a policy requiring strong passwords for all users.</p><br>
+
+          <div class="topic">4. Encrypt data </div>
+          <p>Data encryption can help protect sensitive information from being intercepted or stolen.
+            Use encryption techniques to protect data at rest and in transit, such as SSL or TLS.</p><br>
+
+          <div class="topic">5. Monitor network traffic </div>
+          <p>Regularly monitoring network traffic can help you detect and prevent unauthorized access.
+            Use network monitoring tools to keep track of all incoming and outgoing data.</p><br>
+
+          <div class="topic">6. Conduct regular vulnerability assessments</div>
+          <p>Regular vulnerability assessments can help you identify any weaknesses or vulnerabilities in your systems
+            and devices.
+            Use a variety of tools to conduct regular assessments and identify potential threats.</p><br>
+
+          <div class="topic">7. Install firewalls</div>
+          <p>Firewalls are an effective way to prevent external attacks, acting as a shield between your computer and an
+            attacker. Both desktop firewalls and network firewalls, when used together, can bolster your security and
+            reduce the chances of a hacker infiltrating your environment.</p><br>
+
+          <div class="topic">8. Build in redundancy</div>
+          <p>To protect against system failures or attacks, build in redundancy by using backup systems or multiple
+            devices.
+            This can help ensure that essential functions continue to operate even if one system or device fails.</p>
+          <br>
+
+          <div class="topic">9. Implement access controls</div>
+          <p>Another way to protect your devices is to implement access controls.
+            Use policy-based controls and role-based access to restrict access to sensitive data and systems.</p><br>
+
+          <div class="topic">10. Use security technologies</div>
+          <p>Use security technologies such as intrusion detection and prevention systems (IDS/IPS) and antivirus
+            software to help protect your devices and systems.</p><br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Articles Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>Latest Articles</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.bleepingcomputer.com/news/security/microsoft-hackers-hijack-linux-systems-using-trojanized-openssh-version/">
+              Microsoft: Hackers hijack Linux systems using trojanized OpenSSH version</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a
+              href="https://portswigger.net/daily-swig/iot-vendors-faulted-for-slow-progress-in-setting-up-vulnerability-disclosure-programs">
+              IoT vendors faulted for slow progress in setting up vulnerability disclosure programs</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.iottechnews.com/news/2022/nov/10/uk-canada-and-singapore-join-forces-secure-iot-devices/">
+              UK, Canada, and Singapore join forces to secure IoT devices</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.iottechnews.com/news/2022/sep/08/natali-tshuva-sternum-on-future-proof-iot-security/">
+              Natali Tshuva, Sternum: On ‘future-proof’ IoT security</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.iottechnews.com/news/2022/aug/03/verizon-iot-mobile-cyberattacks-downtime-increase-22/">
+              Verizon: IoT/mobile cyberattacks leading to downtime increase 22%</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.iottechnews.com/news/2022/apr/04/mirai-variant-beastmode-exploits-fresh-vulnerabilities/">
+              Mirai variant ‘Beastmode’ exploits fresh vulnerabilities</a></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Us</span></div>
+      <div class="text">
+        <div class="topic">Like Our Page? Tell Us What You Think.</div>
+        <form>
+          <div class="comment">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <br>
+            <input type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <br>
+            <br>
+            <textarea name="Comment" id="Comment" cols="40" rows="10" placeholder="Comment"></textarea> <br>
+          </div>
+          <div class="button">
+            <button type="reset" value="Reset">Submit</button>
+          </div>
+        </form>
+        <div class="que">
+          <p>Have Queries?</p>
+          <p>Email Us: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+          <p>Or Call Us: <a href="tel:0522-15728693">0522-15728693</a></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Cyber Info</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

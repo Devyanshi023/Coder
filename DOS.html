@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cyber Info</title>
+  <link rel="stylesheet" href="style1.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    a:link {
+      color: rgb(60, 90, 239);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(6, 150, 216);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(87, 67, 201);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: rgb(59, 156, 241);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=text]:focus {
+      border: 3px solid #555;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=email]:focus {
+      border: 3px solid #555;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    textarea:focus {
+      border: 3px solid #555;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#main"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="nl">
+        <div class="logo"><img src="Images/logoNew.jpg" alt="logo" height="70px" width="70px">
+          <a href="#">CYBER INFO</a>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#main">Cyber Threat</a></li>
+        <li><a href="#stats">Statistics</a></li>
+        <li><a href="#protect">Protection</a></li>
+        <li><a href="#services">Articles</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- main Section Start -->
+  <section class="main" id="main">
+    <div class="main-content">
+      <div class="text">
+        <div class="text-one">Denial-of-Service attacks</div><br>
+
+        <div class="text-three">
+          <p>DOS (Denial of Service) cyber attacks refer to a type of cybercrime that involves overwhelming a network or
+            website with an excessive amount of traffic or data, causing it to crash or become inaccessible.</p><br>
+          <p> DOS attacks are one of the most common types of cyber attacks used by hackers and cybercriminals to
+            disrupt businesses, governments, and organizations.</p><br>
+          <p>Though DoS attacks do not typically result in the theft or loss of significant information or other assets,
+            they can cost the victim a great deal of time and money to handle.</p><br>
+          <p>Modern security technologies have developed mechanisms to defend against most forms of DoS attacks, but due
+            to the unique characteristics of DDoS, it is still regarded as an elevated threat and
+            is of higher concern to organizations that fear being targeted by such an attack.</p><br>
+          <label for="touch">
+            <center>
+              <div class="spans">TYPES OF DOS ATTACKS</div>
+            </center>
+          </label>
+          <input type="checkbox" id="touch">
+
+          <ul class="slide">
+
+            <li>Ping of Death</li>
+            <li>Teardrop</li>
+            <li>Smurf</li>
+            <li>SYN Flood</li>
+            <li>UDP Flood</li>
+            <li>HTTP Flood</li>
+            <li>Application Layer Attacks</li>
+            <li>DNS Amplification</li>
+            <li>Slowloris</li>
+            <li>NTP Amplification</li>
+
+          </ul>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section Start -->
+
+  <section class="stats" id="stats">
+    <div class="content">
+      <div class="title"><span>Wanna Know About The Current Stats of These Attacks? </span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <p>More than 5.4 million DDoS attacks were reported in the first half of 2021. This represents an 11% increase
+            compared to 2020.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <p>On average, a DDoS attack costs a company $20,000-$40,000 hourly.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <p>There were 52,500 DDoS attacks globally in 2020.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- protect Section Start -->
+  <section class="protect" id="protect">
+    <div class="content">
+      <div class="title"><span>Let's talk about Protection!</span></div>
+      <div class="protect-details">
+        <div class="left">
+          <center><img src="Images/dos.png" alt="image"></center><br>
+          <p style="font-size: 15px;">
+            <center>WORKING OF DOS ATTACKS</center>
+          </p><br><br>
+        </div>
+        <div class="right">
+          <div class="topic">Easy-peasy Protection is in your Hands!! </div><br>
+          <p>Here are 10 simple tips for identifying and preventing these scams.</p><br><br>
+
+          <div class="topic">1. Understand What a DoS Attack is</div>
+          <p>Start by researching what a DoS (Denial of Service) attack is and how it works. This will help you better
+            understand how to protect yourself from these attacks.</p><br>
+
+          <div class="topic">2. Create a Plan for DoS Protection</div>
+          <p>Develop a plan that includes strategies for DoS attack prevention, detection, and mitigation. This plan
+            should be in place before an attack occurs.</p><br>
+
+          <div class="topic">3. Regularly Monitor Network Traffic</div>
+          <p>Monitoring network traffic can help detect unusual patterns or sudden increases in traffic that may
+            indicate a DoS attack is in progress.</p><br>
+
+          <div class="topic">4. Implement Firewalls and Routers</div>
+          <p>Use firewalls and routers to control and filter network traffic. This will help ensure that only legitimate
+            traffic is allowed onto your network.</p><br>
+
+          <div class="topic">5. Utilize DoS Protection Software</div>
+          <p>Install and set up DoS protection software that can help prevent and mitigate the effects of DoS attacks.
+          </p><br>
+
+          <div class="topic">6. Enable Automatic Updates</div>
+          <p>Keep all software and security systems up to date to ensure that any vulnerabilities are patched as soon as
+            possible.</p><br>
+
+          <div class="topic">7. Limit Network Connections</div>
+          <p>Limit the number of network connections that a single user can make at any given time.
+            This can help prevent a single user from monopolizing bandwidth and causing a DoS attack.</p><br>
+
+          <div class="topic">8. Utilize Content Delivery Networks (CDNs)</div>
+          <p>Consider using CDNs to distribute content, as they can help reduce the load on your servers and prevent DoS
+            attacks.</p><br>
+
+          <div class="topic">9. Practice Good Password Hygiene</div>
+          <p>Ensure that all passwords are complex and changed frequently to prevent unauthorized access to your
+            network.</p><br>
+
+          <div class="topic">10. Educate Employees</div>
+          <p>Educate employees on the importance of security and how to recognize and report any suspicious network
+            activity to help prevent potential DoS attacks.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Articles Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>Latest Articles</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.bleepingcomputer.com/news/microsoft/microsoft-azure-portal-outage-was-caused-by-traffic-spike-/">
+              Microsoft: Azure Portal outage was caused by traffic “spike”</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a href="https://thehackernews.com/2023/05/dark-frost-botnet-launches-devastating.html">
+              Dark Frost Botnet Launches Devastating DDoS Attacks on Gaming Industry</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a href="https://thehackernews.com/2023/04/new-slp-vulnerability-could-let.html">
+              New SLP Vulnerability Could Let Attackers Launch 2200x Powerful DDoS Attacks</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="topic"><a href="https://thehackernews.com/2023/02/gcore-thwarts-massive-650-gbps-ddos.html">
+              Gcore Thwarts Massive 650 Gbps DDoS Attack on Free Plan Client</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a href="https://thehackernews.com/2023/02/massive-http-ddos-attack-hits-record.html">
+              Massive HTTP DDoS Attack Hits Record High of 71 Million Requests/Second</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a href="https://thehackernews.com/2022/11/warning-new-rapperbot-campaign-aims-to.html">
+              Warning: New RapperBot Campaign Aims to Launch DDoS Attacks at Game Servers</a></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Us</span></div>
+      <div class="text">
+        <div class="topic">Like Our Page? Tell Us What You Think.</div>
+        <form>
+          <div class="comment">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <br>
+            <input type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <br>
+            <br>
+            <textarea name="Comment" id="Comment" cols="40" rows="10" placeholder="Comment"></textarea> <br>
+          </div>
+          <div class="button">
+            <button type="reset" value="Reset">Submit</button>
+          </div>
+        </form>
+        <div class="que">
+          <p>Have Queries?</p>
+          <p>Email Us: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+          <p>Or Call Us: <a href="tel:0522-15728693">0522-15728693</a></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Cyber Info</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

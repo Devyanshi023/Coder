@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cyber Info</title>
+  <link rel="stylesheet" href="style1.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    a:link {
+      color: rgb(60, 90, 239);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(6, 150, 216);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(87, 67, 201);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: rgb(59, 156, 241);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=text]:focus {
+      border: 3px solid #555;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=email]:focus {
+      border: 3px solid #555;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    textarea:focus {
+      border: 3px solid #555;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#main"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="nl">
+        <div class="logo"><img src="Images/logoNew.jpg" alt="logo" height="70px" width="70px">
+          <a href="#">CYBER INFO</a>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#main">Cyber Threat</a></li>
+        <li><a href="#stats">Statistics</a></li>
+        <li><a href="#protect">Protection</a></li>
+        <li><a href="#services">Articles</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- main Section Start -->
+  <section class="main" id="main">
+    <div class="main-content">
+      <div class="text">
+        <div class="text-one">Cross-site scripting cyber attacks</div><br>
+
+        <div class="text-three">
+          <p>Cross-site scripting (XSS) is a type of cyber attack where an attacker injects malicious code into a web
+            page viewed by other users.</p><br>
+          <p>It allows an attacker to modify the content of a web page and gain access to sensitive information,
+            such as session tokens or credentials.</p><br>
+          <p>XSS attacks are prevalent and can be found on many websites, making them one of the most significant
+            threats to web applications.</p><br>
+          <p>Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click
+            it</p><br>
+          <p>If the app or website lacks proper data sanitization, the malicious link executes the attacker’s chosen
+            code on the user’s system.
+            As a result, the attacker can steal the user’s active session cookie.</p><br>
+          <br>
+          <label for="touch">
+            <center>
+              <div class="spans">TYPES OF CROSS-SITE SCRIPTING CYBER ATTACKS</div>
+            </center>
+          </label>
+          <input type="checkbox" id="touch">
+
+          <ul class="slide">
+            <li>Reflected XSS</li>
+            <li>Stored XSS</li>
+            <li>DOM-based XSS</li>
+            <li>Blind XSS</li>
+            <li>Self XSS</li>
+            <li>URL Injection</li>
+            <li>Clickjacking</li>
+            <li>Polyglot Injection</li>
+            <li>CSS injection</li>
+            <li>BOM Injection</li>
+
+          </ul>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section Start -->
+
+  <section class="stats" id="stats">
+    <div class="content">
+      <div class="title"><span>Wanna Know About The Current Stats of These Attacks? </span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <p>Cross-site scripting (or XSS) ranks seventh on the OWASP Top Ten —
+            a standard industry-recognized document listing the most critical cybersecurity risks.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <p>In 2019, the popular multiplayer game experienced an XSS vulnerability that over 200 million users.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <p>Almost 65% of websites are exposed to XSS vulnerabilities discovered in modern web applications.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- protect Section Start -->
+  <section class="protect" id="protect">
+    <div class="content">
+      <div class="title"><span>Let's talk about Protection!</span></div>
+      <div class="protect-details">
+        <div class="left">
+          <center><img src="Images/crosssite.webp" alt="image"><br></center>
+          <p style="font-size: 15px;">
+            <center>WORKING OF CROSS-SITE SCRIPTING ATTACKS</center>
+          </p><br><br>
+        </div>
+        <div class="right">
+          <div class="topic">Easy-peasy Protection is in your Hands!! </div><br>
+          <p>Here are 10 simple tips for identifying and preventing these scams.</p><br><br>
+
+          <div class="topic">1.Input validation</div>
+          <p>Validate user inputs—including those from forms, cookies, and HTTP headers—before accepting and processing
+            them.
+            This validation should happen on both the client and server sides.</p><br>
+
+          <div class="topic">2. Encoding/escaping data</div>
+          <p>Encode all user-generated data and escape characters that have special meaning in HTML, JavaScript, or
+            other languages.</p><br>
+
+          <div class="topic">3. Implement strong passwords </div>
+          <p>One of the most commonly exploited vulnerabilities in IoT systems is weak passwords.
+            To protect your devices, implement a policy requiring strong passwords for all users.</p><br>
+
+          <div class="topic">4. Use Content Security Policy (CSP)</div>
+          <p>CSP is a security standard that blocks XSS and other types of attacks by whitelisting the sources of
+            content that a website can load.
+            A website should be designed to accept only data from authorized sources.</p><br>
+
+          <div class="topic">5. Monitor network traffic </div>
+          <p>Regularly monitoring network traffic can help you detect and prevent unauthorized access.
+            Use network monitoring tools to keep track of all incoming and outgoing data.</p><br>
+
+          <div class="topic">6. Conduct regular vulnerability assessments</div>
+          <p>Regular vulnerability assessments can help you identify any weaknesses or vulnerabilities in your systems
+            and devices.
+            Use a variety of tools to conduct regular assessments and identify potential threats.</p><br>
+
+          <div class="topic">7. Install firewalls</div>
+          <p>Firewalls are an effective way to prevent external attacks, acting as a shield between your computer and an
+            attacker. Both desktop firewalls and network firewalls, when used together, can bolster your security and
+            reduce the chances of a hacker infiltrating your environment.</p><br>
+
+          <div class="topic">8. Enable XSS protection in browsers</div>
+          <p>Browsers have their built-in XSS protection mechanisms.
+            Ensure that these are enabled.</p><br>
+
+          <div class="topic">9. Implement access controls</div>
+          <p>Another way to protect your devices is to implement access controls.
+            Use policy-based controls and role-based access to restrict access to sensitive data and systems.</p><br>
+
+          <div class="topic">10.Use HTTPS instead of HTTP</div>
+          <p>HTTPS provides a secure and encrypted connection between the web server and the user’s browser,
+            protecting against eavesdropping and attacks like man-in-the-middle attacks.</p><br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Articles Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>Latest Articles</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://portswigger.net/daily-swig/dom-xss-vulnerability-in-gartner-peer-insights-widget-patched">
+              DOM XSS vulnerability in Gartner Peer Insights widget patched</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a href="https://thehackernews.com/2023/03/jenkins-security-alert-new-security.html">
+              Jenkins Security Alert: New Security Flaws Could Allow Code Execution Attacks</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a href="https://portswigger.net/daily-swig/zoom-whiteboard-patches-xss-bug">
+              Zoom Whiteboard patches XSS bug</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.iottechnews.com/news/2022/sep/08/natali-tshuva-sternum-on-future-proof-iot-security/">
+              Natali Tshuva, Sternum: On ‘future-proof’ IoT security</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://portswigger.net/daily-swig/radio-silence-from-dms-vendor-quartet-over-xss-zero-days">
+              Radio silence from DMS vendor quartet over XSS zero-days</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.iottechnews.com/news/2022/apr/04/mirai-variant-beastmode-exploits-fresh-vulnerabilities/">
+              Mirai variant ‘Beastmode’ exploits fresh vulnerabilities</a></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Us</span></div>
+      <div class="text">
+        <div class="topic">Like Our Page? Tell Us What You Think.</div>
+        <form>
+          <div class="comment">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <br>
+            <input type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <br>
+            <br>
+            <textarea name="Comment" id="Comment" cols="40" rows="10" placeholder="Comment"></textarea> <br>
+          </div>
+          <div class="button">
+            <button type="reset" value="Reset">Submit</button>
+          </div>
+        </form>
+        <div class="que">
+          <p>Have Queries?</p>
+          <p>Email Us: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+          <p>Or Call Us: <a href="tel:0522-15728693">0522-15728693</a></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Cyber Info</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

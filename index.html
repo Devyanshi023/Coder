@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cyber Info</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    a:link {
+      color: rgb(60, 90, 239);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(6, 150, 216);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(87, 67, 201);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: rgb(59, 156, 241);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=text]:focus {
+      border: 3px solid #555;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=email]:focus {
+      border: 3px solid #555;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    textarea:focus {
+      border: 3px solid #555;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="nl">
+        <div class="logo"><img src="Images/logoNew.jpg" alt="logo" height="70px" width="70px">
+          <a href="#">CYBER INFO</a>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Introduction</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#learn">Learn</a></li>
+        <li><a href="#services">Articles</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Cyber Info- Your personal cyberpedia</div><br>
+        <div class="text-two">Are you afraid of using the internet </div>
+        <div class="text-two">because of its vulnerability to attacks?</div><br>
+        <div class="text-two">Do you want to avoid becoming a victim of</div>
+        <div class="text-two">cyberattacks but dont know where to start?</div><br>
+        <div class="text-three">Don't worry. Cyber Info got your back</div>
+      </div>
+      <br>
+      <div class="button">
+        <button onclick="window.location.href='login.html'">Login / Sign-Up</button>
+      </div>
+      <br>
+    </div>
+  </section>
+
+  <!-- Introduction Section Start -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>Not Sure Where To Start? Let Us Guide You.</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">WHAT ARE CYBER ATTACKS?</div>
+          <p>Cyber attacks are malicious attempts to exploit systems.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <div class="topic">WHO ARE CYBER ATTACKERS?</div>
+          <p>Cyber attackers are those who carry out cyber attacks. </p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <div class="topic">WHAT IS THE NEED OF PROTECTION?</div>
+          <p>Protection from cyber attacks is extremely important in today's digital age for all.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Us</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="Images/ss2.webp" alt="image">
+        </div>
+        <div class="right">
+          <div class="topic">Enhancing Knowledge Is Our Goal</div>
+          <p>Cyber Info is a knowledgebase site with a collection of data about various cyber threats.
+            Our goal is to aware people about the threats that await for them online and to protect them by enhancing
+            their knowledge about these threats.
+            With technology surrounding our day-to-day life its crucial to keep our data safe, and Cyber Info is the
+            platform that can be your stop for gathering intel about cyber attacks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Learn Section Start -->
+  <section class="learn" id="learn">
+    <div class="mcontent">
+      <div class="title"><span>Let's Learn</span></div>
+      <div class="learn-details">
+        <div class="topic">So are you ready to amplify your knowledge?</div>
+        <p>We've got a selection of choices to lessen your learning hassle.</p>
+        <p>So sit back and choose what you wanna learn from the menu here.</p>
+      </div>
+      <br>
+      <label for="touch">
+        <center>
+          <div class="spans">CYBER ATTACKS</div>
+        </center>
+      </label>
+      <input type="checkbox" id="touch">
+
+      <ul class="slide">
+        <li><a href="phishing.html">Phishing Attacks</a></li>
+        <li><a href="malware.html">Malware Attacks</a></li>
+        <li><a href="DOS.html">Denial-of-Service Attacks</a></li>
+        <li><a href="AI.html">AI-Powered Attacks</a></li>
+        <li><a href="IOT.html">IoT-Based Attacks</a></li>
+        <li><a href="supply.html">Supply Chain Attacks</a></li>
+        <li><a href="manMiddle.html">Man-in-the-Middle Attacks</a></li>
+        <li><a href="crossSite.html">Cross-site Scripting Attacks</a></li>
+        <li><a href="password.html">Password Attacks</a></li>
+        <li><a href="spoofing.html">Spoofing Attacks</a></li>
+
+
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- Articles Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>Latest Articles</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://therecord.media/ransomware-attack-kaiserslautern-university-applied-sciences-germany?&web_view=true">
+              Cyberattack on German university takes ‘entire IT infrastructure’ offline.</a></div>
+
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a
+              href="https://therecord.media/ofcom-cyberattack-uk-regulator-moveit-vulnerability?&web_view=true">Confidential
+              data downloaded from UK regulator Ofcom in cyberattack</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.helpnetsecurity.com/2023/06/09/blackpoint-cyber-growth-investment/?web_view=true">Blackpoint
+              Cyber raises $190 million to fund further development of its security technology
+            </a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.helpnetsecurity.com/2023/06/09/employees-cybersecurity-knowledge/?web_view=true">Employee
+              cybersecurity awareness takes center stage in defense strategies</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a
+              href="https://therecord.media/university-manchester-cyber-incident-uk?&web_view=true">University of
+              Manchester announces cyber incident, says data ‘likely’ copied</a></div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="topic"><a
+              href="https://www.cybersecuritydive.com/news/cybercriminals-target-c-suite/652052/?&web_view=true">Cybercriminals
+              target C-suite, family members with sophisticated attacks</a></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Us</span></div>
+      <div class="text">
+        <div class="topic">Like Our Page? Tell Us What You Think.</div>
+        <form>
+          <div class="comment">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <br>
+            <input type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <br>
+            <br>
+            <textarea name="Comment" id="Comment" cols="40" rows="10" placeholder="Comment"></textarea> <br>
+          </div>
+          <div class="button">
+            <button type="reset" value="Reset">Submit</button>
+          </div>
+        </form>
+        <div class="que">
+          <p>Have Queries?</p>
+          <p>Email Us: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+          <p>Or Call Us: <a href="tel:0522-15728693">0522-15728693</a></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Cyber Info</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
